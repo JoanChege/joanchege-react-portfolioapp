@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className='navbar'>
-        <div className='nav-logo'>
+        <div>
             <p className='nav-name'>Portfolio</p>
         </div>
         <div className='desktopMenu'>
