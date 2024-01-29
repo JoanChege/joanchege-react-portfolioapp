@@ -42,17 +42,14 @@
   }
 
   .bg{
-    display: flex;
-    align-content: center;
-    min-height: 80vh;
-    width: 50%;
-    margin: auto ;
-    width: 380px;
-    height: 380px;
-    border-radius: 55% 45% 55% 45%;
-    overflow: hidden;
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
+   margin-top: 120px;
+   display: flex;
+   align-content: center;
+   position: relative;
+   min-height: 70vh;
+   width: 40%;
+   border-radius: 55% 45% 55% 45%;
+   overflow: hidden;
+   object-fit: cover; 
   }
 
