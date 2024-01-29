@@ -16,6 +16,10 @@
     display: flex;
     gap: 30px;   
   }
+  .icon{
+    width: 1.7rem;
+    height: 1.7rem;
+  }
   .bottom-footer{
       font-size: 14px;
       margin-top: 10px;
