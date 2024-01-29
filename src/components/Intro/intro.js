@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 
-const intro = () => {
+const Intro = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const intro = () => {
   )
 }
 
-export default intro
+export default Intro
