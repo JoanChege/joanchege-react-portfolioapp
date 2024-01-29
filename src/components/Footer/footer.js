@@ -11,8 +11,12 @@ const Footer = () => {
                 <p>Joan Chege.</p>
             </div>
             <div className='footer-social-icons'>
-                 <img src={ig} alt="Instagram" className='icon'/> 
-                 <img src={li} alt="LinkedIn" className='icon'/> 
+                <a href="https://www.instagram.com/njokiiiiiiiiiiii/" target="_blank" rel="noreferrer">
+                    <img src={ig} alt="Instagram" className="icon" />
+                </a>
+                <a href="https://github.com/JoanChege" target="_blank" rel="noreferrer">
+                    <img src={li} alt="LinkedIn" className="icon" />
+                </a>
                  <a href="https://github.com/JoanChege" target="_blank" rel="noreferrer">
                     <img src={gi} alt="Github" className="icon" />
                 </a>
