@@ -24,8 +24,8 @@
     margin-bottom: 25px;
   }
   .project-box label{
-    font-size: 15px;
-    color: #777;
+    font-size: large;
+    color: var(--text-color-second);
   }
   .project-box::after, .contact-info::after{
     content: "";
