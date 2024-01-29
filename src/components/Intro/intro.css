@@ -4,9 +4,9 @@
 
 .featured-box{
     position: relative;
-    display: flex;
     height: 100vh;
     min-height: 700px;
+    display: flex;
   }
   
   .featured-text{
@@ -21,15 +21,16 @@
   }
 
   .hello{
-    background: var(--first-color);
-    color: var(--color-white);
-    padding: 3px 8px;
-    font-size: x-large;
-    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: xx-large;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: var(--first-color);
+    
   }
   .introtext{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--text-color-second);
     margin-block: 20px;
     text-transform: capitalize;
