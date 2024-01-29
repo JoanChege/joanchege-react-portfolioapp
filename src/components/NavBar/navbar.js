@@ -3,6 +3,7 @@ import './navbar.css';
 import { Link } from 'react-scroll';
 
 
+
 const Navbar = () => {
   return (
     <div>
