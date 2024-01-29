@@ -20,10 +20,54 @@
   box-sizing: border-box; 
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   }
   
-body{
-    background: var(--body-color);
+  html{
+    scroll-behavior: smooth;
   }
+
+  /*scroll bar design*/
+  ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
+  }
+
+  /*button design*/
+  .btn{
+    font-weight: 400;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+ }
+
+  .btn>i{
+    margin-left: 10px;
+ }
+.btn:hover{
+    background: var(--second-color);
+    color: var(--color-white);
+ }
+
+ /*icon design*/
+ i{
+    font-size: 16px;
+ }
+ /*body design*/
+body{
+  background: var(--body-color);
+}
