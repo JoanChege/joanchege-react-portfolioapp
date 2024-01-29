@@ -13,7 +13,9 @@ const Footer = () => {
             <div className='footer-social-icons'>
                  <img src={ig} alt="Instagram" className='icon'/> 
                  <img src={li} alt="LinkedIn" className='icon'/> 
-                 <img src={gi} alt="Github" className='icon'/> 
+                 <a href="https://github.com/JoanChege" target="_blank" rel="noreferrer">
+                    <img src={gi} alt="Github" className="icon" />
+                </a>
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; Joan Chege  -  2024 All rights reserved</p>
