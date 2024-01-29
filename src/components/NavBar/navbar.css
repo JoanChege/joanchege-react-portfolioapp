@@ -32,10 +32,4 @@
     padding: 0.5rem;
     border-bottom: 8px solid turquoise;
 }
-.nav-menu-btn{
-    display: none;
-  }
-  .nav-menu-btn i{
-    font-size: 28px;
-    cursor: pointer;
-  }
+
