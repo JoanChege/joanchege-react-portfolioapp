@@ -16,21 +16,15 @@
 }
 
 .nav-name{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--text-color-third);
 }
 
 .desktopMenu, .desktopMenuListItem{
-    display: flex;
-    list-style: none;
-    position: relative;
-    text-decoration: none;
-    color: var(--text-color-second);
-    font-weight: 400;
-    padding-inline: 15px;
-    margin-inline: 20px;
-    cursor: pointer;
+   margin: 1rem;
+   cursor: pointer;
+   font-size: larger;
 }
 
 .desktopMenuListItem:hover{
