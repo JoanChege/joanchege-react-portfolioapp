@@ -40,3 +40,19 @@
     margin-bottom: 25px;
     color: var(--text-color-second);
   }
+
+  .bg{
+    display: flex;
+    align-content: center;
+    min-height: 80vh;
+    width: 50%;
+    margin: auto ;
+    width: 380px;
+    height: 380px;
+    border-radius: 55% 45% 55% 45%;
+    overflow: hidden;
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+  }
+
