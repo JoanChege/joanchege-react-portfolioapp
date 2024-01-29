@@ -1,5 +1,6 @@
 import React from 'react';
 import './intro.css';
+import bg from '../../assets/profile.jpg';
 
 const Intro = () => {
   return (
@@ -13,6 +14,7 @@ const Intro = () => {
             crafts visually stunning and user-friendly websites. If interested scroll down and get to know more about me.
             </p>
         </div>
+        <img src={bg} alt="Profile" className='bg' /> 
         </section>
     </div>
   )
