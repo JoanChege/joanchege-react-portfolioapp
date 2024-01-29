@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import ig from '../../assets/insta.png';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
                 <p>Joan Chege.</p>
             </div>
             <div className='footer-social-icons'>
-                <div class="icon"><i class="uil uil-instagram"></i></div>
+                 <img src={ig} alt="Profile" className='icon'/> 
                 <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
                 <div class="icon"><i class="uil uil-github-alt"></i></div>
             </div>
