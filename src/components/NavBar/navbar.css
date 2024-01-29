@@ -27,7 +27,14 @@
     position: relative;
     text-decoration: none;
     color: var(--text-color-second);
-    font-weight: 500;
+    font-weight: 400;
     padding-inline: 15px;
     margin-inline: 20px;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover{
+    color: var(--text-color-third);
+    padding: 0.5rem;
+    border-bottom: 8px solid turquoise;
 }
