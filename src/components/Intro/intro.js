@@ -3,8 +3,8 @@ import './intro.css';
 
 const Intro = () => {
   return (
-    <div>
-      <section id='home'>
+    <div className='wrapper'>
+      <section className='featured-box' id='home'>
         <div className='featured-text'>
             <span className='hello'>HELLO</span>
             <span className='introtext'>I am Joan Chege</span>
