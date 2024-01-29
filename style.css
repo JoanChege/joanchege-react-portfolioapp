@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap');
+
+/*set variables*/
+:root {
+  --body-color: rgb(255, 255, 255);
+  --color-white: rgb(255, 255, 255);
+  --text-color-fourth: rgb(64, 224, 208); 
+  --text-color-third: rgb(0, 197, 205); 
+  --text-color-second: rgb(68, 68, 68);
+  --first-color: rgb(110, 87, 224);
+  --first-color-hover: rgb(40, 91, 212);
+  --second-color: rgb(0, 201, 255);
+  --third-color: rgb(192, 166, 49);
+  --first-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  /*scroll bar design*/
+  ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
+  }
+
+  /*button design*/
+  .btn{
+    font-weight: 400;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+ }
+
+  .btn>i{
+    margin-left: 10px;
+ }
+.btn:hover{
+    background: var(--second-color);
+    color: var(--color-white);
+ }
+
+ /*icon design*/
+ i{
+    font-size: 16px;
+ }
+ /*body design*/
+body{
+  background: var(--body-color);
+}
